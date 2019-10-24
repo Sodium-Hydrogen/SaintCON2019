@@ -1,5 +1,5 @@
 ## SAINTCON Labs Minibadge ##
-<img scr="readmeFiles/labs.jpeg" width="100px" />
+<img src="https://github.com/Sodium-Hydrogen/SaintCON2019/blob/master/readmeFiles/labs.jpeg" width="200px">
 
 ### Things you'll need ###
 * bus pirate
