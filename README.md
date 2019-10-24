@@ -8,6 +8,7 @@
 
 ### Walkthrough ###
 1. Connect to the bus pirate. This can be done by following [this guide]. (You shouldn't need to install any drivers)
+   * **The baud rate needs to be 115200**
 2. Place the minibadge in the minibadge spot on the bus pirate. **Make Sure the switch by the minibadge is set to I2c**
 3. Enter the I2C mode of the bus priate
    * This can be done by typing `m4` so your line should look like `Hiz> m4`
