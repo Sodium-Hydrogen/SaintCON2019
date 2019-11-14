@@ -1,4 +1,4 @@
-## SAINTCON Labs Minibadge ##
+## SAINTCON Labs Minibadge Flashing Guide##
 <img src="/readmeFiles/labs.jpeg" width="200px">
 
 ### Things you'll need ###
@@ -20,7 +20,7 @@ Searching I2C address space. Found devices at:
 
 I2C>
 ```
-_If it doesn't there might be a slodering problem on the chip_
+_If it doesn't there might be a soldering problem on the chip_
 
 
 5. To set the message you need to send a start `[` then the write address `0xA0` followed by the memory location `0 0` and the stop bit `]`
@@ -52,11 +52,13 @@ I2C>
 
 *The minibadge writes once every 30 seconds*
 
+*The datasheet for the i2c eeprom can be found [here]*
+
 # **Bring the Bus pirate back to SAINTCON Labs once you have your message set** #
 
 
 
 
 
-
+[here]:http://ww1.microchip.com/downloads/en/DeviceDoc/24CW16X-24CW32X-24CW64X-24CW128X-Data-Sheet-20005772B.pdf
 [this guide]:https://learn.sparkfun.com/tutorials/terminal-basics/connecting-to-your-device
