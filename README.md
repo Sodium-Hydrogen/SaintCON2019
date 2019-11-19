@@ -13,6 +13,8 @@
 3. Enter the I2C mode of the bus priate
    * This can be done by typing `m4` so your line should look like `Hiz> m4`
    * Press enter twice
+   * _If using a regular bus pirate you will need to connect 3.3v and pullup from the bus pirate to the 3.3v pin on the minibadge as well as connecting gnd, sda and scl to the [minibadge]. `v` to see the pinouts of the bus pirate_
+   * _On a regular bus pirate you will also need to turn on the power and pullups which can be done with the commands `W` THEN `P`_
 4. To make sure the device is connected properly type `(1)` which should return 
 ```
 Searching I2C address space. Found devices at:
@@ -54,11 +56,9 @@ I2C>
 
 *The datasheet for the i2c eeprom can be found [here]*
 
-# **Bring the Bus pirate back to SAINTCON Labs once you have your message set** #
 
 
 
-
-
+[minibadge]:https://github.com/lukejenkins/minibadge/blob/master/minibadge-footprint.png
 [here]:http://ww1.microchip.com/downloads/en/DeviceDoc/24CW16X-24CW32X-24CW64X-24CW128X-Data-Sheet-20005772B.pdf
 [this guide]:https://learn.sparkfun.com/tutorials/terminal-basics/connecting-to-your-device
