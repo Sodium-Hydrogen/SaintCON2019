@@ -30,7 +30,7 @@ _If it doesn't there might be a soldering problem on the chip_
    * Then send `[ 0xA0 2` 0x2 or 2 is the byte indicating that we have a text message
    * Now enter the length of your message, etc for _Hello World_ it would be __11__
    * Now type your message inside `"`, etc `"Hello World"`
-   * All this should look like: `[0xA0 0 0][0xA0 2 11 "Hello World]`
+   * All this should look like: `[0xA0 0 0][0xA0 2 11 "Hello World"]`
    * Send the commands
 6. To double check it send you can reset the memory location `[0xA0 0 0]`
    * read from the minibadge by typing `[0xA1 r:#]` where # is the number of time you want to read
